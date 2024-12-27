@@ -1,3 +1,4 @@
+
 ### Günlük İstatistik Uygulaması
 
 Bu proje, kullanıcıların günlük ekran sürelerini izlemelerine ve analiz etmelerine olanak tanıyan bir istatistik uygulamasıdır. Program, kullanıcıların belirli bir tarihteki uygulama kullanım detaylarını görmesini sağlar ve çeşitli grafiksel görselleştirmeler sunar.
@@ -29,6 +30,8 @@ Bu proje, kullanıcıların günlük ekran sürelerini izlemelerine ve analiz et
 
 #### 5. Kullanıcı Dostu Arayüz:
 - Veriler ve grafikler, kullanıcı dostu bir Tkinter tabanlı arayüzde görselleştirilir.
+
+![image](https://github.com/user-attachments/assets/cf1a1158-d1c2-4e5e-bfe5-55374f434538)
 
 ---
 
