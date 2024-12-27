@@ -15,7 +15,6 @@ Bu proje, kullanıcıların günlük ekran sürelerini izlemelerine ve analiz et
 - Kullanıcıların mevcut verilerden tarih seçmesi için bir tarih seçici (ComboBox) bulunmaktadır.
 - Tarih bilgisi en son tarihe göre sıralanır ve varsayılan olarak en yeni tarih seçilir.
 
-![image](https://github.com/user-attachments/assets/55dfe103-ac60-43e0-a70d-e85ed598f58a)
 ![image](https://github.com/user-attachments/assets/d1c9cea1-8610-40ba-9b61-f168a7021421)
 
 
