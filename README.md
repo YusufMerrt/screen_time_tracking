@@ -2,6 +2,9 @@ Günlük İstatistik Uygulaması
 
 Bu proje, kullanıcıların günlük ekran sürelerini izlemelerine ve analiz etmelerine olanak tanıyan bir istatistik uygulamasıdır. Program, kullanıcıların belirli bir tarihteki uygulama kullanım detaylarını görmesini sağlar ve çeşitli grafiksel görselleştirmeler sunar.
 
+![image](https://github.com/user-attachments/assets/42365a08-d023-4505-b235-7e2bcd6dd293)
+
+
 ### Öne Çıkan Özellikler
 
 #### 1. Günlük Verilerin Yüklenmesi:
@@ -11,6 +14,10 @@ Bu proje, kullanıcıların günlük ekran sürelerini izlemelerine ve analiz et
 #### 2. Tarih Seçim Arayüzü:
 - Kullanıcıların mevcut verilerden tarih seçmesi için bir tarih seçici (ComboBox) bulunmaktadır.
 - Tarih bilgisi en son tarihe göre sıralanır ve varsayılan olarak en yeni tarih seçilir.
+
+![image](https://github.com/user-attachments/assets/55dfe103-ac60-43e0-a70d-e85ed598f58a)
+![image](https://github.com/user-attachments/assets/d1c9cea1-8610-40ba-9b61-f168a7021421)
+
 
 #### 3. Grafiksel Analizler:
 - **Günlük Kategori Dağılımı**: Kullanıcının ekran süresinin farklı kategorilerde (ör. Sosyal Medya, Eğlence, İş) nasıl dağıldığını gösteren bir pasta grafiği.
