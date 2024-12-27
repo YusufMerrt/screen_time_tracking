@@ -1,0 +1,73 @@
+{
+    "Sosyal Medya": [
+        "chrome.exe",
+        "firefox.exe",
+        "msedge.exe",
+        "opera.exe",
+        "brave.exe",
+        "discord.exe",
+        "telegram.exe",
+        "whatsapp.exe",
+        "teams.exe",
+        "slack.exe",
+        "zoom.exe",
+        "skype.exe"
+    ],
+    "Oyun": [
+        "steam.exe",
+        "epicgameslauncher.exe",
+        "league of legends.exe",
+        "valorant.exe",
+        "minecraft.exe",
+        "riotclientservices.exe",
+        "battle.net.exe",
+        "gta5.exe",
+        "csgo.exe",
+        "dota2.exe"
+    ],
+    "Üretkenlik": [
+        "code.exe",
+        "pycharm64.exe",
+        "idea64.exe",
+        "eclipse.exe",
+        "sublime_text.exe",
+        "word.exe",
+        "excel.exe",
+        "powerpnt.exe",
+        "outlook.exe",
+        "onenote.exe",
+        "notepad.exe",
+        "notepad++.exe",
+        "winrar.exe",
+        "7zfm.exe"
+    ],
+    "Tasarım": [
+        "photoshop.exe",
+        "illustrator.exe",
+        "indesign.exe",
+        "premiere.exe",
+        "aftereffects.exe",
+        "figma.exe",
+        "xd.exe",
+        "gimp.exe",
+        "blender.exe",
+        "paint.net.exe",
+        "krita.exe"
+    ],
+    "Sistem": [
+        "explorer.exe",
+        "taskmgr.exe",
+        "cmd.exe",
+        "powershell.exe",
+        "control.exe",
+        "mmc.exe",
+        "regedit.exe",
+        "services.exe"
+    ],
+    "falan": [
+        "Cursor.exe"
+    ],
+    "python": [
+        "python.exe"
+    ]
+}
