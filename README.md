@@ -1,4 +1,4 @@
-Günlük İstatistik Uygulaması
+### Günlük İstatistik Uygulaması
 
 Bu proje, kullanıcıların günlük ekran sürelerini izlemelerine ve analiz etmelerine olanak tanıyan bir istatistik uygulamasıdır. Program, kullanıcıların belirli bir tarihteki uygulama kullanım detaylarını görmesini sağlar ve çeşitli grafiksel görselleştirmeler sunar.
 
