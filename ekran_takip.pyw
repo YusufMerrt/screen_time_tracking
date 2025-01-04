@@ -694,6 +694,10 @@ class ModernEkranTakip:
             guncel_df.to_csv(csv_dosyasi, index=False, encoding='utf-8-sig')
             print(f"{len(veriler)} uygulamanın verileri kaydedildi.")
             
+            # Kayıt işlemi başarılı olduysa tarihleri güncelle
+            if hasattr(self, 'tarih_combo'):
+                self.tarihleri_yukle()
+            
         except Exception as e:
             print(f"Veri kaydetme hatası: {str(e)}")
 
@@ -906,13 +910,22 @@ class ModernEkranTakip:
         """CSV dosyasından mevcut tarihleri yükle"""
         try:
             df = pd.read_csv('ekran_suresi_takip.csv')
+            # Tarihleri datetime'a çevir
+            df['Tarih'] = pd.to_datetime(df['Tarih'], format='%d.%m.%Y')
+            # Tarihleri sırala ve tekrar orijinal formata çevir
             tarihler = sorted(df['Tarih'].unique(), reverse=True)  # En yeni tarihler başta
+            tarihler = [tarih.strftime('%d.%m.%Y') for tarih in tarihler]
+            
             self.tarih_combo['values'] = tarihler
             if tarihler:
                 self.tarih_combo.set(tarihler[0])  # En son tarihi seç
+                
+            print(f"Toplam {len(tarihler)} tarih yüklendi")
+            
         except Exception as e:
             print(f"Tarih yükleme hatası: {str(e)}")
-            
+            messagebox.showerror("Hata", "Tarihler yüklenirken bir hata oluştu!")
+
     def secili_gun_istatistiklerini_goster(self):
         """Seçili günün istatistiklerini göster"""
         try:
